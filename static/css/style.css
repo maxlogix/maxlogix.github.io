@@ -1,0 +1,184 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font: 16px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  color: #191919;
+  background: #ffffff;
+  padding: 0 20px; }
+
+p {
+  line-height: 1.8; }
+
+strong {
+  font-weight: 400;
+  color: #444; }
+
+a {
+  text-decoration: none;
+  color: #5badf0; }
+
+.clear {
+  clear: both; }
+
+#wrapper {
+  margin: 70px auto;
+  max-width: 940px;
+  height: 100%; }
+  #wrapper #header #logo {
+    float: left; }
+  #wrapper #header #links {
+    float: right; }
+  #wrapper #iphone {
+    float: left;
+    max-width: 300px;
+    margin-right: 20px; }
+    #wrapper #iphone img {
+      width: 100%; }
+  #wrapper #introcontent {
+      
+    float: right;
+    max-width: 620px;
+    margin-top: 80px; }
+    #wrapper #introcontent #lede {
+      text-align: center;
+      background: url("static//images/cheekd-logo-portrait.svg") no-repeat 50% 0;
+      background-size: 150px 150px;
+      padding-top: 180px; }
+      #wrapper #introcontent #lede h1 {
+        font: 300 60px/70px 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', 'Gotham Rounded', "Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #000000;
+        margin: 0 0 60px 0; }
+  #wrapper #innercontent {
+      
+    float: left;
+    max-width: 620px;
+    margin-top: 55px;
+    font: 16px/26px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    #wrapper #innercontent p {
+        
+      margin-bottom: 10px;
+	  line-height: 1.8;
+	  line-height: 1.8;
+}
+    #wrapper #innercontent ul {
+      margin: 0 0 0 0;
+      padding: 0 0 0 0; }
+      #wrapper #innercontent ul li {
+        margin-bottom: 10px; }
+    #wrapper #innercontent h2 {
+      font-weight: bold;
+      color: #000;
+      margin: 30px 0 10px;
+	  text-transform: uppercase;
+}
+    #wrapper #innercontent h1 {
+      margin: 0 0 40px;
+      font: 300 55px/70px 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', 'Gotham Rounded', "Helvetica Neue",Helvetica,Arial,sans-serif;
+      color: #000000; }
+  #wrapper #footer {
+    float: none;
+    width: 100%;
+    word-spacing: 65px;
+    margin-top: 45px; }
+
+#footer {
+  margin-top: 120px;
+  float: left;
+  width: 620px;
+  text-align: right;
+  word-spacing: 19px;
+  color: #6a5f7b;
+  font: 500 12px/20px 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', 'Gotham Rounded', "Helvetica Neue",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased; }
+  #footer a {
+    text-transform: uppercase;
+    color: #6a5f7b; }
+    #footer a.Facebook {
+      background: url("static//images/fb.png") no-repeat left 50%;
+      background-size: 15px 15px;
+      padding: 3px 0 3px 35px;
+      margin-left: 20px; }
+    #footer a.Twitter {
+      background: url("static//images/twitter.png") no-repeat left 50%;
+      background-size: 18px 15px;
+      padding: 3px 0 3px 20px; }
+ #footer .Copyright {
+    display: block;
+    text-align: center;
+    word-spacing: 0;
+    margin-top: 30px;}
+@media (max-width: 980px) {
+  #footer {
+    float: none;
+    display: block;
+    word-spacing: 0;
+    width: 100%;
+    margin-top: 0;
+    text-align: center; }
+    #footer a {
+      display: block; }
+      #footer a.Facebook, #footer a.Twitter {
+        padding: 0;
+        background: transparent; }
+    #footer .Copyright {
+      margin: 15px 0 25px;
+      width: 100%;
+      text-align: center; }
+
+  #wrapper {
+    margin-top: 40px; }
+    #wrapper #iphone {
+      float: none;
+      display: block;
+      margin: auto;
+      padding-top: 80px;
+      width: 100%;
+      text-align: center;
+      background: url("static//images/cheekd-logo-portrait.svg") no-repeat 50% top;
+      background-size: 60px 58px; }
+      #wrapper #iphone img {
+        width: 75%; }
+    #wrapper #introcontent {
+      float: none;
+      margin: 0 auto;
+      display: block;
+      width: 100%; }
+      #wrapper #introcontent #lede {
+        margin: auto;
+        padding: 0;
+        width: 225px;
+        background: transparent; }
+        #wrapper #introcontent #lede h1 {
+          font-size: 26px;
+          line-height: 30px;
+          font-weight: 300; } }

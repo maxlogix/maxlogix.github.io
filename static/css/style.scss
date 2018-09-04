@@ -1,0 +1,217 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0} 
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	font:16px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+	height: 100%;
+	color:#777;
+	background: #1e1728;
+	padding: 0 20px;
+}
+
+p {
+	line-height:1.8;
+}
+
+strong {
+	font-weight: 400;
+	color: #444;
+}
+
+a {
+	text-decoration:none;
+	color:#5badf0;
+}
+
+.clear {
+	clear: both;
+}
+
+#wrapper {
+	margin: 70px auto;
+	max-width: 940px;
+	height: 100%;
+
+	#header {
+
+		#logo {
+			float: left;
+		}
+
+		#links {
+			float: right;
+		}
+	}
+
+	#iphone {
+		float: left;
+		max-width: 300px;
+		margin-right: 20px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	#introcontent {
+		float: right;
+		max-width: 620px;
+		margin-top: 80px;
+
+		#lede {
+			text-align: center;
+			background: url('/static/images/large-logo.png') no-repeat 50% 0;
+			background-size: 221px 150px;
+			padding-top: 180px;
+
+			h1 {
+				font: 300 60px/70px 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', 'Gotham Rounded', "Helvetica Neue",Helvetica,Arial,sans-serif;
+				color: #b41e4a;
+				margin: 0 0 60px 0;
+			}
+		}
+	}
+
+	#innercontent {
+		float: left;
+		max-width: 620px;
+		margin-top: 55px;
+		font: 16px/26px "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+		p {
+			margin-bottom: 20px;
+		}
+
+		ul {
+			margin: 0 0 20px 20px;
+			padding: 0 0 0 0;
+
+			li {
+				margin-bottom: 10px;
+			}
+		}
+
+		h2 {
+			font-weight: bold;
+			color: #FFF;
+			margin: 30px 0 10px;
+		}
+
+		h1 {
+			margin: 0 0 40px;
+			font: 300 55px/70px 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', 'Gotham Rounded', "Helvetica Neue",Helvetica,Arial,sans-serif;
+			color: #b41e4a;
+		}
+	}
+
+	#footer {
+		float: none;
+		width: 100%;
+		word-spacing: 65px;
+		margin-top: 45px;
+	}
+}
+
+#footer {
+	margin-top: 120px;
+	float: left;
+	width: 620px;
+  text-align: right;
+  word-spacing: 19px;
+  color: #6a5f7b;
+	font: 500 12px/20px 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', 'Gotham Rounded', "Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
+
+  a {
+  	text-transform: uppercase;
+		color: #6a5f7b;
+
+		&.Facebook {
+			background: url('/static/images/fb.png') no-repeat left 50%;
+			background-size: 15px 15px;
+			padding: 3px 0 3px 20px;
+		}
+
+		&.Twitter {
+			background: url('/static/images/twitter.png') no-repeat left 50%;
+			background-size: 18px 15px;
+			padding: 3px 0 3px 20px;
+		}
+  }
+
+  .Copyright {
+  	display: block;
+  	text-align: right;
+  	word-spacing: 0;
+  }
+}
+
+
+
+@media (max-width: 980px){
+	#footer {
+		float: none;
+		display: block;
+		word-spacing: 0;
+		width: 100%;
+		margin-top: 0;
+		text-align: center;
+
+		a {
+			display: block;
+
+			&.Facebook,
+			&.Twitter {
+				padding: 0;
+				background: transparent;
+			}
+		}
+
+		.Copyright {
+			margin: 15px 0 25px;
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+	#wrapper {
+		margin-top: 40px;
+
+		#iphone {
+			float: none;
+			display: block;
+			margin: auto;
+			padding-top: 80px;
+			width: 100%;
+			text-align: center;
+			background: url('/static/images/small-logo.png') no-repeat 50% top;
+			background-size: 60px 58px;
+
+			img {
+				width: 75%;
+			}
+		}
+
+		#introcontent {
+			float: none;
+			margin: 0 auto;
+			display: block;
+			width: 100%;
+
+			#lede {
+				margin: auto;
+				padding: 0;
+				width: 225px;
+				background: transparent;
+
+				h1 {
+					font-size: 26px;
+					line-height: 30px;
+					font-weight: 300;
+				}
+			}
+		}
+	}
+}
